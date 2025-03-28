@@ -25,9 +25,7 @@ This data set compiled by UNICEF describes key indicators in global adolescent H
 
 This R Markdown report aims to analyze the characteristics of country statistics by sex, age, marital status, urabanicity, and geographic region. Additionally, this report will visualize the distribution of martial status data collection by the South Asia region.
 
-## Table 1.
-
-Collected survey characteristics by sex from 1999-2023
+## Table 1. Collected survey characteristics by sex from 1999-2023
 
 ```{r, descriptive-table}
 readRDS(
@@ -37,7 +35,7 @@ readRDS(
 
 **Table 1.** contains descriptive statistics of the survey populations stratified by sex, age, marital status, urbanicity, and geographic region from population surveys spanning 1999-2023. Each data point is not a study participant, but rather when an annual population-based survey collected data on the listed characteristics. The missing data is representative of data lines not containing information related to the characteristic listed or a survey not collecting data on the characteristic that year.
 
-## Figure 1
+## Figure 1: Marital Status Collection Trends in South Asia (2006 - 2022)
 
 ```{r, figure-1}
 #| fig.align = "center",
