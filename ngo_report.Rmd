@@ -44,4 +44,4 @@ knitr::include_graphics(here::here(figure1
 ))
 ```
 
-**Figure 1.** shows a time trend of marital statuses that were collected in South Asia between 2006 and 2022 in the adolescent HIV prevention population surveys.
+**Figure 1.** shows a time trend of the number of times marital statuses were collected in South Asia between 2006 and 2022 in the adolescent HIV prevention population surveys.
