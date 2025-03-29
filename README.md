@@ -7,20 +7,20 @@
 ## Table of contents
 
 -   [General Info](#general-info)
--   [Usage](#useage)
+-   [Usage](#usage)
 -   [Repository Contents](#repository-contents)
 -   [Data Source](#data-source)
 -   [Version](#version)
 
-## General Info {#general-info}
+## General Info
 
 The base dataset, compiled by UNICEF, describes key indicators in global adolescent HIV prevention from 1999-2023. The data was sourced from nationally representative population-based surveys, such as the AIDS Indicator Survey, Demographic and Health Survey, Multiple Indicator Cluster Survey, and others. Each line of data is a percentage of young persons' knowledge on comprehensive HIV prevention, condom use in high-risk sexual behavior, and HIV testing grouped by sex, age, marital status, urbanicity, and UNICEF designated geographic region where available. The percentile data is grouped by country, data source, year, and demographic.
 
-## Usage {#useage}
+## Usage
 
 Please run the "make" command in the RStudio terminal to generate the rendered report (ngo_report.html) and its associated components.
 
-## Repository Contents {#repository-contents}
+## Repository Contents 
 
 ### *Final Report*
 
@@ -40,10 +40,10 @@ The original data from [**UNICEF**](https://data.unicef.org/resources/dataset/hi
 
 Once the codes for generating the table and figure are run, the outputs will appear in the "Output" subdirectory.
 
-## Data Source {#data-source}
+## Data Source
 
 More information on the original dataset can be found [**here**](https://data.unicef.org/resources/dataset/hiv-aids-statistical-tables/) on the UNICEF website by downloading the "Key Indicators in adolescent HIV prevention, 2000-2023" file.
 
-## Version {#version}
+## Version
 
 This report was generated using RStudio 2024.12.1+563, Rtools 4.4, and R for Windows 4.4.3.
