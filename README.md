@@ -9,6 +9,10 @@
 -   [General Info](#general-info)
 -   [Usage](#usage)
 -   [Repository Contents](#repository-contents)
+    - [Final Report](#final-report)
+    - [Code](#code)
+    - [Data](#data)
+    - [Output](output)
 -   [Data Source](#data-source)
 -   [Version](#version)
 
