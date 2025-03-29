@@ -1,4 +1,3 @@
-#! add a rule for rendering the report
 ngo_report.html: ngo_report.Rmd \
 	output/table1.rds output/figure1.png
 	Rscript code/03_render_report.R
