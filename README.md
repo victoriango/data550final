@@ -1,4 +1,4 @@
-# DATA 550 final project
+# DATA 550 Final Project
 
 > **UNICEF Adolescent HIV Prevention Survey Data, 1999 - 2023**
 >
