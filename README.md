@@ -8,7 +8,7 @@
 
 -   [General Info](#general-info)
 -   [Usage](#usage)
-    -   [Initializing Report Packages](#initalizing-report-packages)
+    -   [Initializing Report Packages](#initializing-report-packages)
     -   [Creating Files and Rendering the Report](#creating-files-and-rendering-the-report)
 -   [Repository Contents](#repository-contents)
     -   [Final Report](#final-report)
@@ -24,7 +24,7 @@ The base dataset, compiled by UNICEF, describes key indicators in global adolesc
 
 ## Usage {#usage}
 
-### *Initializing Report Packages* {#initalizing-report-packages}
+### *Initializing Report Packages* {#initializing-report-packages}
 
 To initialize and load/restore the RStudio packages used to create ngo_report.Rmd, **please run "[make install]{.underline}" command inside the RStudio terminal.**
 
