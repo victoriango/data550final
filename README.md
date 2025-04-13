@@ -30,7 +30,7 @@ To initialize and load/restore the RStudio packages used to create ngo_report.Rm
 
 ### *Creating Files and Rendering the Report* {#creating-files-and-rendering-the-report}
 
-**Please run the "[make]{.underline}" command in the RStudio termina**l to generate the rendered report (ngo_report.html) and its associated components.
+**Please run the "[make]{.underline}" command in the RStudio terminal** to generate the rendered report (ngo_report.html) and its associated components.
 
 ## Repository Contents {#repository-contents}
 
