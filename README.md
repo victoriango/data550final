@@ -22,11 +22,11 @@
 
 The base dataset, compiled by UNICEF, describes key indicators in global adolescent HIV prevention from 1999-2023. The data was sourced from nationally representative population-based surveys, such as the AIDS Indicator Survey, Demographic and Health Survey, Multiple Indicator Cluster Survey, and others. Each line of data is a percentage of young persons' knowledge on comprehensive HIV prevention, condom use in high-risk sexual behavior, and HIV testing grouped by sex, age, marital status, urbanicity, and UNICEF designated geographic region where available. The percentile data is grouped by country, data source, year, and demographic.
 
-## Usage {#usage}
+## Usage
 
 ### *Initializing Report Packages*
 
-To initialize and load/restore the RStudio packages used to create ngo_report.Rmd, please run the **"make install"** command inside the RStudio terminal.
+To initialize and load/restore the RStudio packages used to create ngo_report.Rmd, please run the **"make install"** command inside the RStudio terminal. This will allow the user (you!) to have all of the necessary packages installed and ready to generate the ngo_report.HTML file.
 
 ### *Creating Files and Rendering the Report*
 
