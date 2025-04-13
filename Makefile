@@ -17,3 +17,7 @@ data/filtered_data.xlsx: code/00_filter_data.R \
 data/cleaned_data.xlsx: code/00_clean_data.R \
 	data/Adolescent_HIV_550.xlsx
 	Rscript code/00_clean_data.R
+	
+.PHONY: install
+install:
+    Rscript -e "renv::restore(prompt = FALSE)"
