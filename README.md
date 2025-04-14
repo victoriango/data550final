@@ -8,7 +8,7 @@
 
 -   [General Info](#general-info)
 -   [Usage](#usage)
-    -   [Initializing Report Packages](#initializing-report-packages)
+    -   [Syncing Report Packages](#syncing-report-packages)
     -   [Creating Files and Rendering the Report](#creating-files-and-rendering-the-report)
 -   [Repository Contents](#repository-contents)
     -   [Final Report](#final-report)
@@ -24,9 +24,9 @@ The base dataset, compiled by UNICEF, describes key indicators in global adolesc
 
 ## Usage
 
-### *Initializing Report Packages*
+### *Syncing Report Packages*
 
-To initialize and load/restore the RStudio packages used to create ngo_report.Rmd, please run the **"make install"** command inside the RStudio terminal. This will allow the user (you!) to have all of the necessary packages installed and ready to generate the ngo_report.HTML file.
+To load/restore and sync the RStudio packages used to create ngo_report.Rmd, please run the **"make install"** command inside the RStudio terminal. This will allow the user (you!) to have all of the necessary packages installed and ready to generate the ngo_report.HTML file.
 
 ### *Creating Files and Rendering the Report*
 
