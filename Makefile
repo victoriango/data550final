@@ -20,4 +20,4 @@ data/cleaned_data.xlsx: code/00_clean_data.R \
 	
 .PHONY: install
 install:
-    Rscript -e "renv::restore(prompt = FALSE)"
+	Rscript -e "renv::restore(prompt = FALSE)"
