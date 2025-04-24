@@ -8,8 +8,8 @@
 
 -   [General Info](#general-info)
 -   [Usage](#usage)
-    -   [Report Generation with Docker](#report_generation_with_docker)
-    -   [Report Generation *without* Docker](#report_generation_without_docker)
+    -   [Report Generation *with* Docker](#report-generation-with-docker)
+    -   [Report Generation *without* Docker](#report-generation-without-docker)
 -   [Repository Contents](#repository-contents)
     -   [Final Report](#final-report)
     -   [Code](#code)
@@ -86,7 +86,7 @@ make install
 make
 ```
 
-#### Output
+#### 3. Output
 
 The final report will be available in the main project folder.
 
