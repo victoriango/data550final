@@ -64,7 +64,7 @@ Easy report generation using the `Dockerfile` and `Makefile`
 
 #### 3. Output
 
-The final report, ngo_report.html, will be available in the `report/` folder.
+The final report, `ngo_report.html`, will be available in the `report/` folder.
 
 ------------------------------------------------------------------------
 
@@ -88,7 +88,7 @@ make
 
 #### 3. Output
 
-The final report, ngo_report.html, will be available in the main project folder.
+The final report, `ngo_report.html`, will be available in the main project folder.
 
 ## Repository Contents 
 
