@@ -8,8 +8,8 @@
 
 -   [General Info](#general-info)
 -   [Usage](#usage)
-    -   [Report Generation _with_ Docker](#report_generation__with__docker)
-    -   [Report Generation _without_ Docker](#report_generation__without__docker)
+    -   [Report Generation with Docker](#report_generation_with_docker)
+    -   [Report Generation *without* Docker](#report_generation_without_docker)
 -   [Repository Contents](#repository-contents)
     -   [Final Report](#final-report)
     -   [Code](#code)
@@ -24,61 +24,69 @@ The base dataset, compiled by UNICEF, describes key indicators in global adolesc
 
 ## Usage
 
-### **Report Generation _with_ Docker**
+### **Report Generation *with* Docker**
 
 Easy report generation using the `Dockerfile` and `Makefile`
 
-#### 1. Building the Docker Image  - pick one method
+#### 1. Building the Docker Image (pick one method)
 
-- **Option 1**: Use a `make` command
-  ```bash
-  make project_image
-  ```
+-   **Option 1**: Use a `make` command
 
-- **Option 2**: Pull from Docker Hub (https://hub.docker.com/r/victoriango/final_project)
-  ```bash
-  docker pull victoriango/final_project
-  ```
+    ``` bash
+    make project_image
+    ```
 
-- **Option 3**: Build manually
-  ```bash
-  docker build -t victoriango/final_project .
-  ```
-#### 2. Generate the Report
+-   **Option 2**: Pull from Docker Hub (<https://hub.docker.com/r/victoriango/final_project>)
 
-- **For Windows**
-  ```bash
-  make docker-run
-  ```
+    ``` bash
+    docker pull victoriango/final_project
+    ```
 
-- **For macOS / Linux**
-  ```bash
-  make docker-run-m
-  ```
+-   **Option 3**: Build manually
+
+    ``` bash
+    docker build -t victoriango/final_project .
+    ```
+
+    #### 2. Generate the Report
+
+-   **For Windows**
+
+    ``` bash
+    make docker-run
+    ```
+
+-   **For macOS / Linux**
+
+    ``` bash
+    make docker-run-m
+    ```
 
 #### 3. Output
 
 The final report will be available in the `report/` folder.
 
----
-### 🖥️ **Report Generation _without_ Docker**
+------------------------------------------------------------------------
+
+### **Report Generation *without* Docker**
 
 If you have R and the required packages already installed, you can generate the report directly using `make`.
 
 #### 1. Install packages via renv
 
 To load and sync the RStudio packages used to create ngo_report.Rmd, please run the **"make install"** command inside the RStudio terminal. This will allow the user (you!) to have all of the necessary packages installed and ready to generate the ngo_report.HTML file.
-```bash
+
+``` bash
 make install
 ```
 
 #### 2. Generate the report
 
-```bash
+``` bash
 make
 ```
 
-#### 📁 Output
+#### Output
 
 The final report will be available in the main project folder.
 
