@@ -8,8 +8,8 @@
 
 -   [General Info](#general-info)
 -   [Usage](#usage)
-    -   [Report Generation with Docker](#report_generation_with_docker)
-    -   [Report Generation without Docker](#report_generation_without_docker)
+    -   [Report Generation _with_ Docker](#report_generation__with__docker)
+    -   [Report Generation _without_ Docker](#report_generation__without__docker)
 -   [Repository Contents](#repository-contents)
     -   [Final Report](#final-report)
     -   [Code](#code)
