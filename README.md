@@ -74,7 +74,7 @@ If you have R and the required packages already installed, you can generate the 
 
 #### 1. Install packages via renv
 
-To load and sync the RStudio packages used to create ngo_report.Rmd, please run the **"make install"** command inside the RStudio terminal. This will allow the user (you!) to have all of the necessary packages installed and ready to generate the ngo_report.HTML file.
+To load and sync the RStudio packages used to create ngo_report.Rmd, please run the `make install` command inside the RStudio terminal. This will allow the user (you!) to have all of the necessary packages installed and ready to generate the `ngo_report.html` file.
 
 ``` bash
 make install
