@@ -8,8 +8,8 @@
 
 -   [General Info](#general-info)
 -   [Usage](#usage)
-    -   [Syncing Report Packages](#syncing-report-packages)
-    -   [Creating Files and Rendering the Report](#creating-files-and-rendering-the-report)
+    -   [Report Generation with Docker](#report_generation_with_docker)
+    -   [Report Generation without Docker](#report_generation_without_docker)
 -   [Repository Contents](#repository-contents)
     -   [Final Report](#final-report)
     -   [Code](#code)
@@ -28,7 +28,7 @@ The base dataset, compiled by UNICEF, describes key indicators in global adolesc
 
 Easy report generation using the `Dockerfile` and `Makefile`
 
-#### 1. Building the Docker Image (pick one method)
+#### 1. Building the Docker Image  - pick one method
 
 - **Option 1**: Use a `make` command
   ```bash
