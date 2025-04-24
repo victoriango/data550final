@@ -48,7 +48,7 @@ Easy report generation using the `Dockerfile` and `Makefile`
     docker build -t victoriango/final_project .
     ```
 
-    #### 2. Generate the Report
+#### 2. Generate the Report
 
 -   **For Windows**
 
