@@ -31,7 +31,7 @@ install:
 # make rule to clean files before pushing
 .PHONY: clean
 clean:
-	rm -f output*.rds && rm -f output/*.png && rm -f ngo_report.html
+	rm -f output/*.rds && rm -f output/*.png && rm -f ngo_report.html
 	
 # Docker files
 PROJECTFILES = \
@@ -53,7 +53,7 @@ RENVFILES = \
 
 # project image
 final_project: Dockerfile $(PROJECTFILES) $(RENVFILES)
-	docker build -t victoriango/final_project
+	docker build -t victoriango/final_project .
 	touch $@
 	
 # Windows users
